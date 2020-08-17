@@ -1,6 +1,7 @@
 pipeline {
+  agent none
   agent {
-    docker { image 'node:10-alpine' }
+    docker { image 'node:666666ne' }
   }
   environment {
     CI = 'true'
